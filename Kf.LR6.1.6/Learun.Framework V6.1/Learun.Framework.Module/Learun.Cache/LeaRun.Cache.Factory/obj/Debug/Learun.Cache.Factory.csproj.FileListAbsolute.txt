@@ -1,0 +1,17 @@
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\Learun.Cache.Factory.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\Learun.Cache.Factory.pdb
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\Learun.Cache.Base.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\Learun.Cache.Redis.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\ServiceStack.Redis.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\ServiceStack.Interfaces.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\ServiceStack.Text.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\ServiceStack.Common.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\Learun.Cache.Base.pdb
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\Learun.Cache.Redis.pdb
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\ServiceStack.Redis.xml
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\ServiceStack.Interfaces.xml
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\ServiceStack.Text.xml
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\bin\Debug\ServiceStack.Common.xml
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\obj\Debug\Learun.Cache.Factory.csprojResolveAssemblyReference.cache
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\obj\Debug\Learun.Cache.Factory.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\LeaRun.Cache.Factory\obj\Debug\Learun.Cache.Factory.pdb

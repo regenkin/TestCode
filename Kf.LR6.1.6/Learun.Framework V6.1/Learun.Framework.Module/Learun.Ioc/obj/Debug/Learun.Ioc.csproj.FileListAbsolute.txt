@@ -1,0 +1,13 @@
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\bin\Debug\Learun.Ioc.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\bin\Debug\Learun.Ioc.pdb
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\bin\Debug\Microsoft.Practices.Unity.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\bin\Debug\Microsoft.Practices.Unity.xml
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\obj\Debug\Learun.Ioc.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Ioc\obj\Debug\Learun.Ioc.pdb

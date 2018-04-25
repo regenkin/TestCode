@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7EE6D95A-B63C-4F4E-8A2A-52E54259CF31}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Learun.Util.Expression</RootNamespace>
+    <AssemblyName>Learun.Util.Expression</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExpressionNode.cs" />
+    <Compile Include="Formula.cs" />
+    <Compile Include="Operand\Operand.cs" />
+    <Compile Include="Operator\Logic\Equal.cs" />
+    <Compile Include="Operator\Logic\NotEqual.cs" />
+    <Compile Include="Operator\Mathematic\Add.cs" />
+    <Compile Include="Operator\Logic\And.cs" />
+    <Compile Include="Operator\Function\Average.cs" />
+    <Compile Include="Operator\BinaryOperator.cs" />
+    <Compile Include="Operator\Bitwise\BitwiseAnd.cs" />
+    <Compile Include="Operator\Bitwise\BitwiseNot.cs" />
+    <Compile Include="Operator\Bitwise\BitwiseOr.cs" />
+    <Compile Include="Operator\Mathematic\Div.cs" />
+    <Compile Include="Operator\Function.cs" />
+    <Compile Include="Operator\Logic\Greater.cs" />
+    <Compile Include="Operator\Logic\GreaterEqual.cs" />
+    <Compile Include="Operator\Logic\Less.cs" />
+    <Compile Include="Operator\Logic\LessEqual.cs" />
+    <Compile Include="Operator\Mathematic\Mod.cs" />
+    <Compile Include="Operator\Unary\Minus.cs" />
+    <Compile Include="Operator\Mathematic\Mul.cs" />
+    <Compile Include="Operator\Unary\Not.cs" />
+    <Compile Include="Operator\Operator.cs" />
+    <Compile Include="Operator\Logic\Or.cs" />
+    <Compile Include="Operator\Parentheses.cs" />
+    <Compile Include="Operator\Unary\Plus.cs" />
+    <Compile Include="Operator\Function\Power.cs" />
+    <Compile Include="Operator\Mathematic\ShiftLeft.cs" />
+    <Compile Include="Operator\Mathematic\ShiftRight.cs" />
+    <Compile Include="Operator\Mathematic\Sub.cs" />
+    <Compile Include="Operator\Function\Sum.cs" />
+    <Compile Include="Operator\UnaryOperator.cs" />
+    <Compile Include="Operator\Mathematic\Xor.cs" />
+    <Compile Include="Token.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

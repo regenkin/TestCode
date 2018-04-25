@@ -1,0 +1,15 @@
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\Learun.Util.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\Learun.Util.pdb
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\EcmaScript.NET.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\Newtonsoft.Json.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\NPOI.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\NPOI.OOXML.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\NPOI.OpenXml4Net.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\Yahoo.Yui.Compressor.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\Newtonsoft.Json.xml
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\bin\Debug\NPOI.xml
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\obj\Debug\Learun.Util.csprojResolveAssemblyReference.cache
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\obj\Debug\Learun.Util.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Util\Learun.Util\obj\Debug\Learun.Util.pdb

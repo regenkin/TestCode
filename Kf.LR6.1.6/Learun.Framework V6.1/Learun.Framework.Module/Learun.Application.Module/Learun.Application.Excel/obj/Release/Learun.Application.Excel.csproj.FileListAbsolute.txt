@@ -1,0 +1,6 @@
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Application.Module\Learun.Application.Excel\bin\Release\Learun.Application.Excel.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Application.Module\Learun.Application.Excel\bin\Release\Learun.Application.Excel.pdb
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Application.Module\Learun.Application.Excel\bin\Release\Newtonsoft.Json.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Application.Module\Learun.Application.Excel\bin\Release\Newtonsoft.Json.xml
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Application.Module\Learun.Application.Excel\obj\Release\Learun.Application.Excel.dll
+C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Application.Module\Learun.Application.Excel\obj\Release\Learun.Application.Excel.pdb
