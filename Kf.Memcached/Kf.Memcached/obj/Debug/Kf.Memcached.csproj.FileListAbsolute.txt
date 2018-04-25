@@ -1,0 +1,5 @@
+F:\gary\kf\Bin\Core\Kf.Memcached.dll
+F:\gary\kf\Bin\Core\Kf.Memcached.pdb
+F:\gary\kf\kfcode\Kf.Memcached\obj\Debug\Kf.Memcached.csprojResolveAssemblyReference.cache
+F:\gary\kf\kfcode\Kf.Memcached\obj\Debug\Kf.Memcached.dll
+F:\gary\kf\kfcode\Kf.Memcached\obj\Debug\Kf.Memcached.pdb

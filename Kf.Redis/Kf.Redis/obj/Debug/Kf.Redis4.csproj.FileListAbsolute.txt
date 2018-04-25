@@ -1,0 +1,5 @@
+F:\gary\公共库\Bin\Core\Kf.Redis.dll
+F:\gary\公共库\Bin\Core\Kf.Redis.pdb
+F:\gary\公共库\Kf.Redis\Kf.Redis\obj\Debug\Kf.Redis4.csprojResolveAssemblyReference.cache
+F:\gary\公共库\Kf.Redis\Kf.Redis\obj\Debug\Kf.Redis.dll
+F:\gary\公共库\Kf.Redis\Kf.Redis\obj\Debug\Kf.Redis.pdb

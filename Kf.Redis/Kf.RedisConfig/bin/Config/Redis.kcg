@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <run>1</run>
+  <readurl>120.25.3.76:6379</readurl>
+  <writeurl>120.25.3.76:6379</writeurl>
+  <maxreadpool>3</maxreadpool>
+  <maxwritepool>1</maxwritepool>
+  <Expire>180</Expire>
+</config>

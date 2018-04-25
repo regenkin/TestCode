@@ -1,0 +1,8 @@
+F:\gary\kf\Bin\Kf.MongodbConfig.exe.config
+F:\gary\kf\Bin\Kf.MongodbConfig.exe
+F:\gary\kf\Bin\Kf.MongodbConfig.pdb
+F:\gary\kf\执行程序\Kf.MongodbConfig\obj\Debug\Kf.MongodbConfig4.csprojResolveAssemblyReference.cache
+F:\gary\kf\执行程序\Kf.MongodbConfig\obj\Debug\Kf.MongodbConfig.FrmConfig.resources
+F:\gary\kf\执行程序\Kf.MongodbConfig\obj\Debug\Kf.MongodbConfig4.csproj.GenerateResource.Cache
+F:\gary\kf\执行程序\Kf.MongodbConfig\obj\Debug\Kf.MongodbConfig.exe
+F:\gary\kf\执行程序\Kf.MongodbConfig\obj\Debug\Kf.MongodbConfig.pdb

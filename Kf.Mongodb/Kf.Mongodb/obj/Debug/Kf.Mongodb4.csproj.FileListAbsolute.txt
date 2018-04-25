@@ -1,0 +1,6 @@
+F:\gary\kf\Bin\Core\Kf.Mongodb.dll
+F:\gary\kf\Bin\Core\Kf.Mongodb.pdb
+F:\gary\kf\kfcode\Kf.Mogodb\obj\Debug\Kf.Mongodb.dll
+F:\gary\kf\kfcode\Kf.Mogodb\obj\Debug\Kf.Mongodb.pdb
+F:\gary\kf\kfcode\Kf.Mongodb\obj\Debug\Kf.Mongodb.dll
+F:\gary\kf\kfcode\Kf.Mongodb\obj\Debug\Kf.Mongodb.pdb
