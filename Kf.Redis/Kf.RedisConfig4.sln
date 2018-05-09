@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.RedisConfig4", "Kf.RedisConfig4.csproj", "{E7F59BB3-755B-4037-A34E-3905314CED80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.Redis4", "..\Kf.Redis\Kf.Redis4.csproj", "{6374CE0B-607A-45F6-B7C4-CB5E9D3640E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.Redis4", "Kf.Redis\Kf.Redis4.csproj", "{6374CE0B-607A-45F6-B7C4-CB5E9D3640E0}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution

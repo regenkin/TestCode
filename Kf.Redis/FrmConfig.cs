@@ -22,14 +22,15 @@ namespace Kf.RedisConfig
             string Dir =System.IO.Path.GetDirectoryName(FileRedisConfig);
             if(!System.IO.Directory.Exists(Dir)) System.IO.Directory.CreateDirectory(Dir);
             System.Xml.XmlDocument doc = new System.Xml.XmlDocument();
-            string xmlStr =string.Format( @"<?xml version=""1.0"" encoding=""utf-8""?><config>
+            string xmlStr =string.Format(@"<?xml version=""1.0"" encoding=""utf-8""?><config>
     <run>{0}</run>
     <readurl>{1}</readurl>
     <writeurl>{2}</writeurl>
     <maxreadpool>{3}</maxreadpool>
     <maxwritepool>{4}</maxwritepool>
     <Expire>{5}</Expire>
-</config>",chkRun.Checked?1:0,txtReadUrl.Text,txtWriteUrl.Text,numReadPool.Value,numWritePool.Value,numExpire.Value);
+<password>{6}</password>
+</config>", chkRun.Checked?1:0,txtReadUrl.Text,txtWriteUrl.Text,numReadPool.Value,numWritePool.Value,numExpire.Value,txtpassword.Text.Trim());
             doc.LoadXml(xmlStr);
             doc.Save(FileRedisConfig);
             MessageBox.Show(string.Format("保存配制文件 {0} 成功.", FileRedisConfig),"提示", MessageBoxButtons.OK);
