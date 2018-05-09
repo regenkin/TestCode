@@ -72,6 +72,7 @@ namespace Kf.RedisConfig
     <maxreadpool>{2}</maxreadpool>
     <maxwritepool>{3}</maxwritepool>
     <Expire>{4}</Expire>
+    <password></password>
 </config>", "127.0.0.1:6379", "127.0.0.1:6379", 3, 1, 180));
             txtWriteUrl.Text = doc.SelectSingleNode("config/writeurl") == null ? "" : doc.SelectSingleNode("config/writeurl").InnerText;
             txtReadUrl.Text = doc.SelectSingleNode("config/readurl") == null ? "" : doc.SelectSingleNode("config/readurl").InnerText;
@@ -79,7 +80,7 @@ namespace Kf.RedisConfig
             numWritePool.Value = Convert.ToInt32(doc.SelectSingleNode("config/maxwritepool") == null ? "" : doc.SelectSingleNode("config/maxwritepool").InnerText);
             numExpire.Value = Convert.ToInt32(doc.SelectSingleNode("config/Expire") == null ? "" : doc.SelectSingleNode("config/Expire").InnerText);
             chkRun.Checked = ((doc.SelectSingleNode("config/run") == null ? "" : doc.SelectSingleNode("config/run").InnerText )== "1");
-
+            txtpassword.Text = doc.SelectSingleNode("config/password") == null ? "" : doc.SelectSingleNode("config/password").InnerText;
         }
     }
 }

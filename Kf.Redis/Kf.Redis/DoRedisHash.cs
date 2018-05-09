@@ -104,7 +104,7 @@ namespace Kf.Redis
         /// <summary>
         /// 给hashid数据集key的value加countby，返回相加后的数据
         /// </summary>
-        public int IncrementValueInHash(string hashid, string key, int countBy)
+        public long IncrementValueInHash(string hashid, string key, int countBy)
         {
             return RedisBase.Core.IncrementValueInHash(hashid, key, countBy);
         }

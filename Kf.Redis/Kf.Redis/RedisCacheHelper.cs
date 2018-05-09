@@ -12,6 +12,7 @@ namespace Kf.Redis
 {
     public class RedisCacheHelper
     {
+        
         string FileRedisConfig = System.AppDomain.CurrentDomain.BaseDirectory + "Config\\Redis.kcg";
         private readonly PooledRedisClientManager pool = null;
         private string[] redisReadHosts ;
@@ -19,6 +20,7 @@ namespace Kf.Redis
         public int RedisMaxReadPool = 3;//int.Parse(ConfigurationManager.AppSettings["redis_max_read_pool"]);
         public int RedisMaxWritePool = 1;//int.Parse(ConfigurationManager.AppSettings["redis_max_write_pool"]);
         string password = "";
+
 
         public RedisCacheHelper(int dbid=0)
         {
@@ -34,7 +36,7 @@ namespace Kf.Redis
     <maxwritepool>{3}</maxwritepool>
     <Expire>{4}</Expire>
     <password>{5}</password>
-</config>", "119.29.179.74:6379", "119.29.179.74:6379", 3, 1, 180,"kinfar"));
+</config>", "119.29.179.74:6379", "119.29.179.74:6379", 3, 1, 180, "kinfar"));
             var redisWriteHost = doc.SelectSingleNode("config/writeurl").InnerText;
             var redisReadHost = doc.SelectSingleNode("config/readurl").InnerText;
             RedisMaxReadPool =Convert.ToInt32(doc.SelectSingleNode("config/maxreadpool").InnerText);
@@ -44,16 +46,15 @@ namespace Kf.Redis
             {
                 redisWriteHosts = redisWriteHost.Split(',');
                 redisReadHosts = redisReadHost.Split(',');
-
                 if (redisReadHosts.Length > 0)
                 {
                     pool = new PooledRedisClientManager(redisWriteHosts, redisReadHosts,
                         new RedisClientManagerConfig()
-                        { 
+                        {
                             DefaultDb = dbid,
                             MaxWritePoolSize = RedisMaxWritePool,
                             MaxReadPoolSize = RedisMaxReadPool,
-                            AutoStart = true, 
+                            AutoStart = true
                         });
                 }
             }
@@ -79,7 +80,7 @@ namespace Kf.Redis
                     {
                         if (r != null)
                         {
-                            if (string.IsNullOrWhiteSpace(password)) r.Password = password;
+                            if (!string.IsNullOrWhiteSpace(password)) r.Password = password;
                             r.SendTimeout = 1000;
                             r.Set(key, value);
                         }
@@ -147,7 +148,7 @@ namespace Kf.Redis
                     {
                         if (r != null)
                         {
-                            if (string.IsNullOrWhiteSpace(password)) r.Password = password;
+                            if (!string.IsNullOrWhiteSpace(password)) r.Password = password;
                             r.SendTimeout = 1000;
                             r.Set(key, value, slidingExpiration);
                         }
@@ -183,7 +184,7 @@ namespace Kf.Redis
                     {
                         if (r != null)
                         {
-                            if (string.IsNullOrWhiteSpace(password)) r.Password = password;
+                            if (!string.IsNullOrWhiteSpace(password)) r.Password = password;
                             r.SendTimeout = 1000;
                             obj = r.Get<T>(key);
                         }
@@ -212,7 +213,7 @@ namespace Kf.Redis
                     {
                         if (r != null)
                         {
-                            if (string.IsNullOrWhiteSpace(password)) r.Password = password;
+                            if (!string.IsNullOrWhiteSpace(password)) r.Password = password;
                             r.SendTimeout = 1000;
                             r.Remove(key);
                         }
@@ -239,7 +240,7 @@ namespace Kf.Redis
                     {
                         if (r != null)
                         {
-                            if (string.IsNullOrWhiteSpace(password)) r.Password = password;
+                            if (!string.IsNullOrWhiteSpace(password)) r.Password = password;
                             r.SendTimeout = 1000;
                             return r.ContainsKey(key);
                         }
