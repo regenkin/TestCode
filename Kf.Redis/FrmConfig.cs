@@ -29,8 +29,9 @@ namespace Kf.RedisConfig
     <maxreadpool>{3}</maxreadpool>
     <maxwritepool>{4}</maxwritepool>
     <Expire>{5}</Expire>
-<password>{6}</password>
-</config>", chkRun.Checked?1:0,txtReadUrl.Text,txtWriteUrl.Text,numReadPool.Value,numWritePool.Value,numExpire.Value,txtpassword.Text.Trim());
+    <password>{6}</password>
+    <dbid>{7}</dbid>
+</config>", chkRun.Checked ? 1 : 0, txtReadUrl.Text, txtWriteUrl.Text, numReadPool.Value, numWritePool.Value, numExpire.Value, txtpassword.Text.Trim(), numDbid.Value);
             doc.LoadXml(xmlStr);
             doc.Save(FileRedisConfig);
             MessageBox.Show(string.Format("保存配制文件 {0} 成功.", FileRedisConfig),"提示", MessageBoxButtons.OK);
@@ -73,6 +74,7 @@ namespace Kf.RedisConfig
     <maxwritepool>{3}</maxwritepool>
     <Expire>{4}</Expire>
     <password></password>
+    <dbid></dbid>
 </config>", "127.0.0.1:6379", "127.0.0.1:6379", 3, 1, 180));
             txtWriteUrl.Text = doc.SelectSingleNode("config/writeurl") == null ? "" : doc.SelectSingleNode("config/writeurl").InnerText;
             txtReadUrl.Text = doc.SelectSingleNode("config/readurl") == null ? "" : doc.SelectSingleNode("config/readurl").InnerText;
@@ -81,6 +83,7 @@ namespace Kf.RedisConfig
             numExpire.Value = Convert.ToInt32(doc.SelectSingleNode("config/Expire") == null ? "" : doc.SelectSingleNode("config/Expire").InnerText);
             chkRun.Checked = ((doc.SelectSingleNode("config/run") == null ? "" : doc.SelectSingleNode("config/run").InnerText )== "1");
             txtpassword.Text = doc.SelectSingleNode("config/password") == null ? "" : doc.SelectSingleNode("config/password").InnerText;
+            numDbid.Value = Convert.ToInt32(doc.SelectSingleNode("config/dbid") == null ? "0" : doc.SelectSingleNode("config/dbid").InnerText);
         }
     }
 }

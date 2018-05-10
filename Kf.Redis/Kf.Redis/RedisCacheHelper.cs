@@ -19,6 +19,7 @@ namespace Kf.Redis
         private string[] redisWriteHosts ;
         public int RedisMaxReadPool = 3;//int.Parse(ConfigurationManager.AppSettings["redis_max_read_pool"]);
         public int RedisMaxWritePool = 1;//int.Parse(ConfigurationManager.AppSettings["redis_max_write_pool"]);
+        int _dbid = 0;
         string password = "";
 
 
@@ -36,22 +37,25 @@ namespace Kf.Redis
     <maxwritepool>{3}</maxwritepool>
     <Expire>{4}</Expire>
     <password>{5}</password>
+    <dbid>{6}</dbid>
 </config>", "119.29.179.74:6379", "119.29.179.74:6379", 3, 1, 180, "kinfar"));
             var redisWriteHost = doc.SelectSingleNode("config/writeurl").InnerText;
             var redisReadHost = doc.SelectSingleNode("config/readurl").InnerText;
             RedisMaxReadPool =Convert.ToInt32(doc.SelectSingleNode("config/maxreadpool").InnerText);
             RedisMaxWritePool = Convert.ToInt32(doc.SelectSingleNode("config/maxwritepool").InnerText);
             password = doc.SelectSingleNode("config/password").InnerText;
+            _dbid = Convert.ToInt32(doc.SelectSingleNode("config/dbid").InnerText);
             if (!string.IsNullOrEmpty(redisWriteHost))
             {
                 redisWriteHosts = redisWriteHost.Split(',');
                 redisReadHosts = redisReadHost.Split(',');
+                if (dbid > 0) _dbid = dbid;
                 if (redisReadHosts.Length > 0)
                 {
                     pool = new PooledRedisClientManager(redisWriteHosts, redisReadHosts,
                         new RedisClientManagerConfig()
                         {
-                            DefaultDb = dbid,
+                            DefaultDb = _dbid,
                             MaxWritePoolSize = RedisMaxWritePool,
                             MaxReadPoolSize = RedisMaxReadPool,
                             AutoStart = true

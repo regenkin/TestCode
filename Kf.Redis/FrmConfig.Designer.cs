@@ -44,9 +44,12 @@
             this.chkRun = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtpassword = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.numDbid = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.numExpire)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numReadPool)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numWritePool)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numDbid)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -184,7 +187,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(415, 88);
+            this.btnSave.Location = new System.Drawing.Point(415, 122);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 7;
@@ -195,7 +198,7 @@
             // chkRun
             // 
             this.chkRun.AutoSize = true;
-            this.chkRun.Location = new System.Drawing.Point(280, 92);
+            this.chkRun.Location = new System.Drawing.Point(280, 126);
             this.chkRun.Name = "chkRun";
             this.chkRun.Size = new System.Drawing.Size(126, 16);
             this.chkRun.TabIndex = 8;
@@ -218,6 +221,22 @@
             this.txtpassword.Size = new System.Drawing.Size(120, 21);
             this.txtpassword.TabIndex = 1;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(289, 93);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(65, 12);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "默认数据库";
+            // 
+            // numDbid
+            // 
+            this.numDbid.Location = new System.Drawing.Point(370, 89);
+            this.numDbid.Name = "numDbid";
+            this.numDbid.Size = new System.Drawing.Size(120, 21);
+            this.numDbid.TabIndex = 4;
+            // 
             // FrmConfig
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -227,9 +246,11 @@
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnTest);
             this.Controls.Add(this.txtLog);
+            this.Controls.Add(this.numDbid);
             this.Controls.Add(this.numWritePool);
             this.Controls.Add(this.numReadPool);
             this.Controls.Add(this.numExpire);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.txtWriteUrl);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -247,6 +268,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.numExpire)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numReadPool)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numWritePool)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numDbid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -270,5 +292,7 @@
         private System.Windows.Forms.CheckBox chkRun;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtpassword;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.NumericUpDown numDbid;
     }
 }
