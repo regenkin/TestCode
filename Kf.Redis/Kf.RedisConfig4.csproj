@@ -21,7 +21,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\KF\Bin\</OutputPath>
+    <OutputPath>..\..\..\Bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -41,7 +41,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Kf.Redis">
-      <HintPath>..\..\KF\Bin\Core\Kf.Redis.dll</HintPath>
+      <HintPath>..\..\..\Bin\Core\Kf.Redis.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
