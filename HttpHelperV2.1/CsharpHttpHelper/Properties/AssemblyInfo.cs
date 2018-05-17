@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("HttpHelper万能框架")]
-[assembly: AssemblyDescription("解决Http协议自动化请求的完美方案")]
+[assembly: AssemblyTitle("HttpHelper操作类")]
+[assembly: AssemblyDescription("解决Http协议自动化请求的")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("http://www.httphelper.com/")]
+[assembly: AssemblyCompany("http://www.kinfar.net/")]
 [assembly: AssemblyProduct("HttpHelper")]
-[assembly: AssemblyCopyright("Copyright © 苏飞论坛 2017")]
+[assembly: AssemblyCopyright("Copyright © kinfar.net 2015")]
 [assembly: AssemblyTrademark("HttpHelper")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(true)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("b3dfad27-f808-43d6-b66d-f7dc59221472")]
+[assembly: Guid("492E8F13-D7A2-4239-8A82-4A35EABBCD71")]
 
 // 程序集的版本信息由下面四个值组成:
 //
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // 可以指定所有这些值，也可以使用“内部版本号”和“修订号”的默认值，
 // 方法是按如下所示使用“*”:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2.1")]
-[assembly: AssemblyFileVersion("2.1")]
+[assembly: AssemblyVersion("8.1")]
+[assembly: AssemblyFileVersion("8.1")]
