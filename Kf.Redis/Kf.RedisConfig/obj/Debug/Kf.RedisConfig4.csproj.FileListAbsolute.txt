@@ -18,3 +18,11 @@ F:\gary\公共库\Kf.Redis\Kf.RedisConfig\obj\Debug\Kf.RedisConfig.FrmConfig.res
 F:\gary\公共库\Kf.Redis\Kf.RedisConfig\obj\Debug\Kf.RedisConfig4.csproj.GenerateResource.Cache
 F:\gary\公共库\Kf.Redis\Kf.RedisConfig\obj\Debug\Kf.RedisConfig.exe
 F:\gary\公共库\Kf.Redis\Kf.RedisConfig\obj\Debug\Kf.RedisConfig.pdb
+F:\gary\KF\KfCodeWeb\Kf.WebApi\Kf.ERP.WebApi\Kf.RedisConfig.exe.config
+F:\gary\KF\KfCodeWeb\Kf.WebApi\Kf.ERP.WebApi\Kf.RedisConfig.exe
+F:\gary\KF\KfCodeWeb\Kf.WebApi\Kf.ERP.WebApi\Kf.RedisConfig.pdb
+F:\gary\KF\GitHub\TestCode\Kf.Redis\Kf.RedisConfig\obj\Debug\Kf.RedisConfig4.csprojResolveAssemblyReference.cache
+F:\gary\KF\GitHub\TestCode\Kf.Redis\Kf.RedisConfig\obj\Debug\Kf.RedisConfig.FrmConfig.resources
+F:\gary\KF\GitHub\TestCode\Kf.Redis\Kf.RedisConfig\obj\Debug\Kf.RedisConfig4.csproj.GenerateResource.Cache
+F:\gary\KF\GitHub\TestCode\Kf.Redis\Kf.RedisConfig\obj\Debug\Kf.RedisConfig.exe
+F:\gary\KF\GitHub\TestCode\Kf.Redis\Kf.RedisConfig\obj\Debug\Kf.RedisConfig.pdb

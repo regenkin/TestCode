@@ -38,7 +38,7 @@ namespace Kf.Redis
     <Expire>{4}</Expire>
     <password>{5}</password>
     <dbid>{6}</dbid>
-</config>", "119.29.179.74:6379", "119.29.179.74:6379", 3, 1, 180, "kinfar"));
+</config>", "119.29.179.74:6379", "119.29.179.74:6379", 3, 1, 180, "kinfar",0));
             var redisWriteHost = doc.SelectSingleNode("config/writeurl").InnerText;
             var redisReadHost = doc.SelectSingleNode("config/readurl").InnerText;
             RedisMaxReadPool =Convert.ToInt32(doc.SelectSingleNode("config/maxreadpool").InnerText);
