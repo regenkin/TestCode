@@ -22,14 +22,16 @@ namespace Kf.RedisConfig
             string Dir =System.IO.Path.GetDirectoryName(FileRedisConfig);
             if(!System.IO.Directory.Exists(Dir)) System.IO.Directory.CreateDirectory(Dir);
             System.Xml.XmlDocument doc = new System.Xml.XmlDocument();
-            string xmlStr =string.Format( @"<?xml version=""1.0"" encoding=""utf-8""?><config>
+            string xmlStr = string.Format(@"<?xml version=""1.0"" encoding=""utf-8""?><config>
     <run>{0}</run>
     <readurl>{1}</readurl>
     <writeurl>{2}</writeurl>
     <maxreadpool>{3}</maxreadpool>
     <maxwritepool>{4}</maxwritepool>
     <Expire>{5}</Expire>
-</config>",chkRun.Checked?1:0,txtReadUrl.Text,txtWriteUrl.Text,numReadPool.Value,numWritePool.Value,numExpire.Value);
+    <password>{6}</password>
+    <dbid>{7}</dbid>
+</config>", chkRun.Checked ? 1 : 0, txtReadUrl.Text, txtWriteUrl.Text, numReadPool.Value, numWritePool.Value,numExpire.Value,txtPassword.Text.Trim(), 0);
             doc.LoadXml(xmlStr);
             doc.Save(FileRedisConfig);
             MessageBox.Show(string.Format("保存配制文件 {0} 成功.", FileRedisConfig),"提示", MessageBoxButtons.OK);
@@ -71,14 +73,16 @@ namespace Kf.RedisConfig
     <maxreadpool>{2}</maxreadpool>
     <maxwritepool>{3}</maxwritepool>
     <Expire>{4}</Expire>
-</config>", "127.0.0.1:6379", "127.0.0.1:6379", 3, 1, 180));
+    <password>{5}</password>
+    <dbid>{6}</dbid>
+</config>", "127.0.0.1:6379", "127.0.0.1:6379", 3, 1, 180,"",0));
             txtWriteUrl.Text = doc.SelectSingleNode("config/writeurl") == null ? "" : doc.SelectSingleNode("config/writeurl").InnerText;
             txtReadUrl.Text = doc.SelectSingleNode("config/readurl") == null ? "" : doc.SelectSingleNode("config/readurl").InnerText;
             numReadPool.Value = Convert.ToInt32(doc.SelectSingleNode("config/maxreadpool") == null ? "" : doc.SelectSingleNode("config/maxreadpool").InnerText);
             numWritePool.Value = Convert.ToInt32(doc.SelectSingleNode("config/maxwritepool") == null ? "" : doc.SelectSingleNode("config/maxwritepool").InnerText);
             numExpire.Value = Convert.ToInt32(doc.SelectSingleNode("config/Expire") == null ? "" : doc.SelectSingleNode("config/Expire").InnerText);
             chkRun.Checked = ((doc.SelectSingleNode("config/run") == null ? "" : doc.SelectSingleNode("config/run").InnerText )== "1");
-
+            txtPassword.Text = doc.SelectSingleNode("config/password") == null ? "" : doc.SelectSingleNode("config/password").InnerText;
         }
     }
 }

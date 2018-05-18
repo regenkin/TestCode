@@ -42,6 +42,8 @@
             this.btnTest = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.chkRun = new System.Windows.Forms.CheckBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numExpire)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numReadPool)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numWritePool)).BeginInit();
@@ -161,18 +163,18 @@
             // 
             // txtLog
             // 
-            this.txtLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtLog.Location = new System.Drawing.Point(11, 150);
+            this.txtLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtLog.Location = new System.Drawing.Point(11, 180);
             this.txtLog.Name = "txtLog";
-            this.txtLog.Size = new System.Drawing.Size(479, 152);
+            this.txtLog.Size = new System.Drawing.Size(479, 122);
             this.txtLog.TabIndex = 3;
             this.txtLog.Text = "";
             // 
             // btnTest
             // 
-            this.btnTest.Location = new System.Drawing.Point(11, 121);
+            this.btnTest.Location = new System.Drawing.Point(11, 151);
             this.btnTest.Name = "btnTest";
             this.btnTest.Size = new System.Drawing.Size(75, 23);
             this.btnTest.TabIndex = 6;
@@ -200,6 +202,22 @@
             this.chkRun.Text = "启用Redis缓存模式";
             this.chkRun.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(70, 126);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(29, 12);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "密码";
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(123, 119);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(120, 21);
+            this.txtPassword.TabIndex = 1;
+            // 
             // FrmConfig
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -215,7 +233,9 @@
             this.Controls.Add(this.txtWriteUrl);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtReadUrl);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -248,5 +268,7 @@
         private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.CheckBox chkRun;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtPassword;
     }
 }

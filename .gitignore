@@ -7,4 +7,10 @@
 /HttpHelperV2.1/CsharpHttpHelper_Demo/obj
 /Kf.Redis/Kf.RedisConfig4.suo
 /Kf.Redis/obj
+<<<<<<< HEAD
 /HttpHelperV2.1/*.suo
+=======
+
+HttpHelperV2.1/CsharpHttpHelper.suo
+HttpHelperV2.1/CsharpHttpHelper.suo
+>>>>>>> e891905a1468f3e0903fb6d0af8351f10d47c62f
