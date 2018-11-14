@@ -1,7 +1,0 @@
-C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Log\bin\Debug\Learun.Loger.dll
-C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Log\bin\Debug\Learun.Loger.pdb
-C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Log\bin\Debug\log4net.dll
-C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Log\bin\Debug\log4net.xml
-C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Log\obj\Debug\Learun.Loger.csprojResolveAssemblyReference.cache
-C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Log\obj\Debug\Learun.Loger.dll
-C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Log\obj\Debug\Learun.Loger.pdb

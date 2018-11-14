@@ -1,4 +1,0 @@
-C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\Learun.Cache.Base\bin\Debug\Learun.Cache.Base.dll
-C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\Learun.Cache.Base\bin\Debug\Learun.Cache.Base.pdb
-C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\Learun.Cache.Base\obj\Debug\Learun.Cache.Base.dll
-C:\工作区域\LeaRun.敏捷开发框架\Learun_2017\Learun.Framework V6.1\Learun.Framework.Module\Learun.Cache\Learun.Cache.Base\obj\Debug\Learun.Cache.Base.pdb
