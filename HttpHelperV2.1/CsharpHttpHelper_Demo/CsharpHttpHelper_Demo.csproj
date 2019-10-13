@@ -22,6 +22,12 @@
     </SccAuxPath>
     <SccProvider>
     </SccProvider>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -69,6 +75,7 @@
     <Content Include="HttpJs_Demo.aspx" />
     <Content Include="HttpLocation_Demo.aspx" />
     <Content Include="HttpMD5_Demo.aspx" />
+    <Content Include="HttpPostFile_Demo.aspx" />
     <Content Include="HttpPost_Demo.aspx" />
     <Content Include="HttpProxy_Demo.aspx" />
     <Content Include="HttpStringCookie_Demo.aspx" />
@@ -156,6 +163,13 @@
     </Compile>
     <Compile Include="HttpMD5_Demo.aspx.designer.cs">
       <DependentUpon>HttpMD5_Demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HttpPostFile_Demo.aspx.cs">
+      <DependentUpon>HttpPostFile_Demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HttpPostFile_Demo.aspx.designer.cs">
+      <DependentUpon>HttpPostFile_Demo.aspx</DependentUpon>
     </Compile>
     <Compile Include="HttpPost_Demo.aspx.cs">
       <DependentUpon>HttpPost_Demo.aspx</DependentUpon>

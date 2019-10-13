@@ -460,6 +460,7 @@ namespace CsharpHttpHelper.Base
                 {
                     request.ContentLength = buffer.Length;
                     request.GetRequestStream().Write(buffer, 0, buffer.Length);
+
                 }
                 else
                 {
